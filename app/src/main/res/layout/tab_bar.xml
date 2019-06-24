@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp">
+
+    <TextView
+        android:id="@+id/dog_tab_id"
+        android:text="Dogs"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/skyblue_dark"/>
+    <TextView
+        android:id="@+id/cat_tab_id"
+        android:text="Cats"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/skyBlue"/>
+    <TextView
+        android:id="@+id/bird_tab_id"
+        android:text="Birds"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/skyBlue"/>
+
+</LinearLayout>
